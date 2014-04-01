@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+
+html, body { background: url("../imgs/background.png") repeat; height: 100%; }
+
+main { border: #a0a0a0 solid 1px; height: 100%; text-align: center; }
+main:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -0.25em; }
+
+.centered { background-color: rgba(255, 255, 255, 0.5); display: inline-block; padding: 40px; vertical-align: middle; }
+.centered h1 { color: #000000; font-family: sans-serif; font-weight: 100; }
+
+.colorSample { background-color: #FFFFFF; border: 5px double #a0a0a0; height: 100px; margin: 10px auto 0; width: 100px; }
+
+.hexValue { font-family: sans-serif; font-weight: bold; margin: 20px auto 0; text-transform: uppercase; }
+
+.rgbValues { margin: 20px 0; }
+.rgbValues input[type="text"] { font-size: 16px; padding: 5px; text-align: center; width: 40px; }
