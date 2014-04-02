@@ -62,6 +62,7 @@ $(document).ready(function() {
         // Set the values and examples
         $("#hexValue").html(hexColor);
         $("#colorSample").css("background-color", hexColor);
+        $("body,html").css("background", hexColor);
     });
 
     // If we click anyway, check that all of the input fields have a value
